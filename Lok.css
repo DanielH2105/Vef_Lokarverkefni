@@ -1,0 +1,80 @@
+header{
+	background:orange;
+	padding:8px;
+}
+
+.container {
+    position: relative;
+
+}
+
+.bottomright {
+    position: fixed;
+    background: gray;
+    padding: 8px;
+    bottom: 8px;
+    right: 16px;
+    font-size: 10px;
+}
+
+.nav{
+    background-color: #F7D488;
+    overflow: hidden;
+}
+
+
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bgx{
+	background-color: salmon;
+	background: linear-gradient(to right, white,darkorange,orange,orange,darkorange,white);
+	height: 400px;
+	text-align: center;
+	padding: 60px;
+	margin: auto;
+
+}
+
+.nav2{
+    background-color: gray;
+    overflow: hidden;
+}
+
+
+.nav2 a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav2 a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.nav2 a:active {
+    background-color: orange;
+    color: white;
+}
