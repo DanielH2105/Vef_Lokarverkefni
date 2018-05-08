@@ -45,7 +45,7 @@ header{
 
 .bgx{
 	background-color: salmon;
-	background: linear-gradient(to right, white,darkorange,orange,orange,darkorange,white);
+	background: linear-gradient(to right, darkgray,orange,orange,orange,orange,darkgray);
 	height: 400px;
 	text-align: center;
 	padding: 60px;
@@ -78,3 +78,38 @@ header{
     background-color: orange;
     color: white;
 }
+
+.bgx2{
+    background-color: salmon;
+    background: linear-gradient(to right, darkgray,orange,orange,orange,orange,darkgray);
+    height: 50px;
+    text-align: center;
+    padding: 60px;
+    margin: auto;
+}
+
+.container2{
+    background-color: salmon;
+    background: linear-gradient(to right, darkgray,orange,orange,orange,orange,darkgray);
+    height: 50px;
+    text-align: center;
+    padding: 60px;
+    margin: auto;
+}
+
+.arrow{
+    width: 25px;
+    height: 25px;
+
+}
+
+span {
+    font-size:20px;
+    color: red;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
